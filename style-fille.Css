@@ -1,0 +1,50 @@
+
+body {
+  background-color: #F3E5D8;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+
+.white-back {
+  padding: 14px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background-color: white;
+  border-radius: 1px;
+  border: 1px solid #c4c1c1; /* Added border */
+}
+
+img {
+  width: 100%;
+  display: block; /* Added to center the image */
+  margin: auto;
+}
+
+li::marker {
+  color: purple;
+}
+
+h1 {
+  color: #C4ABA1;
+}
+
+h3 {
+  color: #B48A9E;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
